@@ -1,12 +1,39 @@
-# React + Vite
+# DocuSaaS UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern document management system UI built with React and Bootstrap.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Folder navigation with expandable tree structure
+- Document viewing and metadata display
+- Multiple view modes (Standard, Focus, Analysis)
+- Document analytics and insights
+- Light/dark theme support
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Bootstrap
+- React-Bootstrap
+
+## Setup
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+
+## Start development server
+npm run dev
+
+## Component Structure
+
+1. App.jsx - Main application container
+2. Header.jsx - Navigation and view control
+3. FolderSidebar.jsx - Folder tree navigation
+4. DocumentList.jsx - Document listing
+5. DocumentViewer.jsx - Document content display
+6. MetadataPanel.jsx - Document metadata display
+7. AnalysisView.jsx - Document analytics visualization
+
+
